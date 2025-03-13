@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html>
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Negros Occidental Highschool</title>
+<link rel="stylesheet" href="style.css">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&di
+splay=swap"rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head> 
+<body>  
+
+     <!-- ------HEADER-- -->
+      
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="Logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section> 
+
+
+
+ <!-- about us content -->
+
+ <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>HISTORY</h1>
+            <p>The foundation for the establishment of a Provincial High School in Negros Occidental was already laid in 1901 by the Division Superintendent, George W. Beattie, so that when Act 372 of the Philippine Commission was passed on March 7, 1901, empowering the Provincial Boards of the country to provide funds for the erection or renting and other expenses for a secondary school in the province, Beattie was ready for implementation of the plan, including the hiring of teachers in time for the opening of the school on July 1, 1902.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Negros_Occidental_High_School" class="hero-btn red-btn">READ MORE</a>
+        </div>
+        <div class="about-col">
+           <img src="2018-03-30 09.49.26 1.jpg">
+        </div>
+    </div>
+ </section>
+
+
+<!-- footer -->
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque consequatur delectus nisi labore <br>
+    perferendis tempore cupiditate. Possimus tempora fugit optio quas voluptatum voluptate, sed ratione accusantium. Praesentium, quis? Temporibus?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>by Penoy</p>
+   </section>
+
+<!-- ------JavaScript for Toggle Menu------ -->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+   
+</script>
+
+</body> 
+</html>
+
+
+
